@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "forge": "^2.3.0",
+    "install": "^0.13.0",
+    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-contracts"
+  }
+}
