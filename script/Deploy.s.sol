@@ -12,7 +12,7 @@ contract NFT2Script is Script {
     function run() public {
         vm.startBroadcast();
 
-        nft = new NFT2();
+        nft = new NFT2("FamNFT", "FAM", 1000);
 
         vm.stopBroadcast();
     }
