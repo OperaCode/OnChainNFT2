@@ -2,17 +2,17 @@
 pragma solidity ^0.8.13;
 
 import {Script} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+import {NFT2} from "../src/NFT2.sol";
 
-contract CounterScript is Script {
-    Counter public counter;
+contract NFT2Script is Script {
+    NFT2 public nft;
 
     function setUp() public {}
 
     function run() public {
         vm.startBroadcast();
 
-        counter = new Counter();
+        nft = new NFT2();
 
         vm.stopBroadcast();
     }
